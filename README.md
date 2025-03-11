@@ -12,6 +12,6 @@ And more... 💻
 This repository offers a diverse set of UI components and web elements to help you build responsive, interactive web pages with ease. Each project is organized into folders with clean, well-documented code to make it easy for you to customize and integrate into your own web projects.
 
 🛠️ Technologies Used
-HTML5 🌐
-CSS3 🎨
+HTML 🌐
+CSS 🎨
 JavaScript ⚡
