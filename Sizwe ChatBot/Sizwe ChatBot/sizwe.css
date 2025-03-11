@@ -1,0 +1,126 @@
+
+.chat-container {
+	background-color: transparent;  /* #f7f9fc Light bluish background */
+    border: 1px solid #e0e6ed;  /* Slightly darker border */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 14px 50px rgba(0, 0, 30, 5);  /* Slight shadow for depth */
+    height: 85vh;
+    border: 1px solid #ccc;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+#chatbox {
+	border: 2px solid transparent;
+    height: 80vh;
+	background-color : transparent; /* background: linear-gradient(to bottom, #f3f3f3, #e6e6e6); Light gradient */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#userInput {
+    width: 80%;
+    padding: 5px;
+}
+
+
+#chatForm {
+    display: flex;  /* To align input and button horizontally */
+    padding: 10px 15px;
+    border-top: 1px solid #e0e6ed;  /* Separator */
+}
+
+#userInput {
+    flex: 1;  /* Makes input take available space */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;  /* Space between input and button */
+    transition: border 0.3s;  /* Smooth transition for hover effect */
+	margin-right: 10px;  /* Ensure there's space between the input and the button */
+	
+}
+
+#userInput:hover {
+    border: 1px solid #007BFF;  /* Highlight on hover */
+}
+
+button {
+	margin-right : 30px;
+    padding: 10px 15px;
+    background-color: #007BFF;  /* Blue background */
+    color: white;  /* White text */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, padding 0.2s;  /* Smooth transition for hover effect */
+}
+
+button:hover {
+	padding: 13px 18px;
+    background-color: #0056b3;  /* Darker blue on hover */
+}
+
+
+
+
+#chatbox div {
+	margin-left : 5px;
+    padding: 8px 12px; /* padding around each message */
+    border-radius: 5px; /* rounded corners */
+    margin: 5px 0; /* space between messages */
+    max-width: 85%; /* limit width of message bubbles */
+	font-size : 1.5em;
+}
+
+#chatbox div:nth-child(odd) { 
+    /* styles for user messages (assuming user messages are odd-numbered) */
+    background-color: #6D78EB;
+    align-self: flex-end; /* right-align user messages */
+    margin-right: 7%; /* provide some right-side space for the user messages */
+	
+}
+
+#chatbox div:nth-child(even) {
+    /* styles for bot messages (assuming bot messages are even-numbered) */
+	width : 50%;
+	margin-left: 4%;
+    background-color: #c0c0c0	; /* a lighter shade than white for differentiation */
+}
+
+/* Ensure the chatbox itself uses flex to lay out its children */
+#chatbox {
+    display: flex;
+    flex-direction: column;
+}
+
+#chatbox {}
+
+#userString {
+	background-color : #0000FF;
+}
+
+#heading  {
+	border: 2px solid transparent;
+	position : relative;
+	top : -25px;
+	left : 0px;
+	width : 98%;
+	text-align : center;
+	font-size : 1.5em;
+}
+
+
+header {
+	margin : 10px;
+	height: 8%;
+	width : 2%;
+}
+
+#but2 {
+	margin-top : 15px;
+	padding : 10px 16.5px;
+	border : 1px solid transparent;
+	color : white;
+	background-color: #007BFF; 
+	border-radius : 15px;
+}
